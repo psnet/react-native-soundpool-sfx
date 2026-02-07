@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    namespace "com.sepu.soundpool.sfx"
+
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 21
+    }
+}
+
+dependencies {
+    implementation "com.facebook.react:react-android"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "react-native-soundpool-sfx",
+  "version": "1.0.0",
+  "author": {
+    "name": "Serhii Pustovit",
+    "url": "https://github.com/psnet"
+  },
+  "homepage": "https://github.com/psnet/react-native-soundpool-sfx",
+  "description": "Android and web short sounds audio player with low-latency with TS API and zero-copy input",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "source": "src/index.ts",
+  "keywords": [
+    "react-native",
+    "audio player",
+    "soundpool",
+    "audio",
+    "low-latency",
+    "android",
+    "web",
+    "zero-copy",
+    "zero dependencies",
+    "sfx"
+  ],
+  "peerDependencies": {
+    "expo-asset": "*",
+    "react-native": ">=0.81.5",
+    "typescript": "*"
+  }
+}
