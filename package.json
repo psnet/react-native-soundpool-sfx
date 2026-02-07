@@ -1,6 +1,6 @@
 {
   "name": "react-native-soundpool-sfx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Serhii Pustovit",
     "url": "https://github.com/psnet"
@@ -24,7 +24,9 @@
   ],
   "peerDependencies": {
     "expo-asset": "*",
-    "react-native": ">=0.81.5",
+    "react-native": ">=0.81.5"
+  },
+  "devDependencies": {
     "typescript": "*"
   }
 }
